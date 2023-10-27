@@ -32,7 +32,7 @@
     "account"
   ],
   "author": "Joakim Engqvist",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/joakimengqvist/swedish-bank-account-validator/issues"
   },
