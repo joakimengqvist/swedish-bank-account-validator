@@ -2,6 +2,3 @@
 
 # Ignore test-related files
 */__tests__/*
-
-# Build files
-/dist
