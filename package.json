@@ -8,6 +8,13 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "./dist": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./dist/index.d.ts": "./dist/index.d.ts"
+  },
   "scripts": {
     "build": "tsup",
     "test": "jest"
