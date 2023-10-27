@@ -17,6 +17,7 @@ import { mod11 } from './modules/mod11';
  * Validates a complete account number together with clearing number.
  * 
  * @param {number} cl_nr - clearing number.
+ * @param {number} acc_nr - account number.
  * 
  * @returns {ClearingValidationResponse} {
  * 
