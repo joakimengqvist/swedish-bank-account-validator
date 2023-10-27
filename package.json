@@ -1,6 +1,6 @@
 {
   "name": "swedish-bank-account-validator",
-  "version": "2023.0.6",
+  "version": "2023.0.7",
   "description": "Validation logic for swedish bank accounts according to public bank account format documents",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "exports": {
-    "./dist": {
+    ".": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     },
