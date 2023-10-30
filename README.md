@@ -6,15 +6,15 @@ The validation is built around bank information from centralized bank details in
 #### To run and install this package
 `$ npm install swedish-bank-account-validator`
 
-	import { accountAndClearingCheck } from 'swedish-bank-account-validator'
+	import { accountAndClearingCheck } from 'swedish-bank-account-validator';
     const validationObject = accountAndClearingCheck(1234, 123456789);
 
 #### Functions
 
 * **accountAndClearingCheck**
 	 takes clearing and account number as input and returns an object with validation information.
-```json
-const response = {
+```
+{
 	name: string | undefined
 	hasWarning: boolean
 	warningType: string
@@ -33,8 +33,8 @@ const response = {
 
 * **clearingNumberCheck**
 	 takes clearing number as input and returns an object with validation information.
-```json
-const response = {
+```
+{
 	name: string
 	number: string
 	valid: boolean
@@ -46,8 +46,8 @@ const response = {
 
 * **accountNumberCheck**
 	 takes account number as input and returns an object with validation information.
-```json
-const response = {
+```
+{
 	number: string
 	valid: boolean
 	errorType: string
@@ -56,8 +56,8 @@ const response = {
 
 * **getBankDataFromClearingNumber**
 	 takes clearing number as input and returns an object with bank information user for validation logic.
-```json
-const response = {
+```
+{
 	name: string
 	number: string
 	valid: boolean
