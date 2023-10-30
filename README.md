@@ -14,7 +14,7 @@ The validation is built around bank information from centralized bank details in
 * **accountAndClearingCheck**
 	 takes clearing and account number as input and returns an object with validation information.
 ```json
-{
+const response = {
 	name: string | undefined
 	hasWarning: boolean
 	warningType: string
@@ -34,7 +34,7 @@ The validation is built around bank information from centralized bank details in
 * **clearingNumberCheck**
 	 takes clearing number as input and returns an object with validation information.
 ```json
-{
+const response = {
 	name: string
 	number: string
 	valid: boolean
@@ -47,7 +47,7 @@ The validation is built around bank information from centralized bank details in
 * **accountNumberCheck**
 	 takes account number as input and returns an object with validation information.
 ```json
-{
+const response = {
 	number: string
 	valid: boolean
 	errorType: string
@@ -57,7 +57,7 @@ The validation is built around bank information from centralized bank details in
 * **getBankDataFromClearingNumber**
 	 takes clearing number as input and returns an object with bank information user for validation logic.
 ```json
-{
+const response = {
 	name: string
 	number: string
 	valid: boolean
